@@ -1,6 +1,7 @@
 /* main style */
 body{
     background: black;
+    margin: 0;
 }
 
 /* Navigation bar */
@@ -41,10 +42,12 @@ float: right;
 .head{
     text-align: center;
     background-image: url("../img/waves.png");
-
+    background-repeat: no-repeat;
+    padding-bottom: 8rem;
 }
 h1{
     color: grey;
+    margin: 0;
 }
 p{
     color: grey;
@@ -67,4 +70,9 @@ span{
 }
 .transp{
     background-color: #d3d3d3;
+}
+.head img{
+    margin-top: 18rem;
+    height: 55rem;
+    width: 56rem;
 }
