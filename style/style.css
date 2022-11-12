@@ -1,3 +1,8 @@
+/* main style */
+body{
+    background: black;
+}
+
 /* Navigation bar */
 .header{
     display: grid;
@@ -33,3 +38,33 @@ float: right;
     border:none;
 }
 /* head section */
+.head{
+    text-align: center;
+    background-image: url("../img/waves.png");
+
+}
+h1{
+    color: grey;
+}
+p{
+    color: grey;
+    margin: 0 7rem 1rem 7rem;
+}
+span{
+    color: aqua;
+}
+.span1{
+    color: #FFFFFF;
+}
+.yello{
+    background-color: yellow;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    width: 9rem;
+    height: 3rem;
+    font-weight: 600;
+}
+.transp{
+    background-color: #d3d3d3;
+}
