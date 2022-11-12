@@ -1,0 +1,35 @@
+/* Navigation bar */
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: black;
+    border-radius: 1rem;
+    text-align: center;
+}
+.menu{
+    margin: 1rem;
+}
+.menu ul{
+    margin: 0;
+}
+.menu li{
+display: inline;
+float: right;
+}
+.logo img{
+    float: left;
+    margin: 1rem;
+}
+.button{
+    height: 3rem;
+    width: 5rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    text-align: center;
+}
+.button button{
+    padding-top: 1rem;
+    background: none;
+    border:none;
+}
+/* head section */
